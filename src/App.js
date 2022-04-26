@@ -1,25 +1,20 @@
 import logo from './logo.svg';
-import './App.css';
-
+import './components/Section/App.css';
+import './index.js'
+import header from "./components/Section/footer/footer";
+import body from "./components/Section/body/body";
+import footer from "./components/Section/footer/footer";
+import Fade from "react-reveal/Fade";
+import { Parallax } from 'react-parallax';
+ 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    return (
+     <div className="App">
+        <header header/>
+        <body body/>
+        <footer footer/>
     </div>
-  );
-}
-
-export default App;
+    );
+  }
+  
+  export default App;
