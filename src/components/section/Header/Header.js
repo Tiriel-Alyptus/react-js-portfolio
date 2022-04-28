@@ -9,27 +9,6 @@ const Header = () => {
     return (
 <div class="">
         <header>
-          <nav class="fixed bg-transparent  w-full px-5 py-2 flex justify-between items-center">
-            <div class="lg:order-2 w-auto lg:w-1/5 lg:text-center"></div>
-            <div class="block lg:hidden">
-              <button class="navbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <title>Menu</title>
-                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-                </svg>
-              </button>
-            </div>
-            <div class="navbar-menu hidden lg:order-1 lg:block w-full lg:w-2/5">
-              <a class="font-bold block lg:inline-block mt-4 lg:mt-0 mr-10 text-black hover:text-indigo-600" href="#">Home</a>
-              <a class="font-bold block lg:inline-block mt-4 lg:mt-0 mr-10 text-black hover:text-indigo-600" href="#">Team</a>
-              <a class="font-bold block lg:inline-block mt-4 lg:mt-0 text-black hover:text-indigo-600" href="#">Galery</a>
-            </div>
-            <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/5 lg:text-right">
-              <a class="font-bold block lg:inline-block mt-4 lg:mt-0 mr-10 text-black hover:text-indigo-600" href="#">Content</a>
-              <a class="font-bold block lg:inline-block mt-4 lg:mt-0 mr-10 text-black hover:text-indigo-600" href="#">FAQ</a>
-              <a class="font-bold block lg:inline-block mt-4 lg:mt-0 text-black hover:text-indigo-600" href="#">Contact</a>
-            </div>
-          </nav>
           <Parallax strength={500} blur={{ min: -5, max: 5 }}bgImage="https://wallpapercave.com/wp/wp6289812.jpg"renderLayer={percentage =>
              (
             <div style={{position: 'static',background: `rgba(255, 255, 255, ${percentage * 1})`,height: percentage * 20,strength: percentage * 200,}}/>

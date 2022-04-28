@@ -4,11 +4,25 @@ import '../../../index.js'
 import Fade from "react-reveal/Fade";
 import { Parallax } from 'react-parallax';
 import React from 'react';
-
 const Body = () => {
     return (
-      <Fade duration={2000}>
+      <Fade bottom>
 <body>
+<div class="bg-white dark:bg-gray-800 ">
+    <div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+            <span class="block">
+                L'histoire commence ici !
+            </span>
+            <span class="block text-indigo-500">
+            </span>
+        </h2>
+        <div class="lg:mt-0 lg:flex-shrink-0">
+            <div class="mt-12 inline-flex rounded-md shadow">
+            </div>
+        </div>
+    </div>
+</div>
           <div classeName="body" class="container mx-auto px-6 md:px-12 relative z-10 flex items-center">
             <div class="lg:w-3/5 xl:w-2/5 flex flex-col items-start relative z-10">
               <h2 class="font-bold text-6xl sm:text-7xl text-black leading-tight mt-4">
@@ -25,7 +39,9 @@ const Body = () => {
               
               <div class="lg:mt-0 lg:flex-shrink-0">
                 <div class="mt-12 inline-flex rounded-md shadow">
-                  <button type="button" class="bg-coline-state py-2 px-4 hover:text-black focus:ring-green-500 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg ">Découvrir</button>
+                <form action="https://github.com/Tiriel-Alyptus">
+                <button href="https://github.com/Tiriel-Alyptus" type="button" class="bg-coline-state py-2 px-4 hover:text-black focus:ring-green-500 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg ">Découvrir</button>
+</form>          
                 </div>
               </div>
             </div>
@@ -38,6 +54,21 @@ const Body = () => {
               </div>
             </div>
           </div>
+          <div class="bg-white dark:bg-gray-800 ">
+    <div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+            <span class="block">
+                
+            </span>
+            <span class="block text-indigo-500">
+            </span>
+        </h2>
+        <div class="lg:mt-0 lg:flex-shrink-0">
+            <div class="mt-12 inline-flex rounded-md shadow">
+            </div>
+        </div>
+    </div>
+</div>
           <div class="py-12 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div class="lg:text-center">
@@ -135,6 +166,27 @@ const Body = () => {
               </div>
             </div>
           </div>
+          <div class="bg-white dark:bg-gray-800 overflow-hidden relative">
+    <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+            <span class="block">
+                Want to be millionaire ?
+            </span>
+            <span class="block text-indigo-500">
+                It&#x27;s today or never.
+            </span>
+        </h2>
+        <div class="lg:mt-0 lg:flex-shrink-0">
+            <div class="mt-12 inline-flex rounded-md shadow">
+                <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                    Get started
+                </button>
+            </div>
+        </div>
+    </div>
+    <img src="/images/car/1.jpg" class="absolute h-full max-w-1/2 hidden lg:block right-0 top-0"/>
+</div>
+
           <div class="max-w-screen-xl p-4 bg-white dark:bg-white mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
             <div class="relative">
               <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
