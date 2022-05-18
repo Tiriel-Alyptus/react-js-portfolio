@@ -2,8 +2,8 @@ import './App.css';
 import './index.js'
 import Fade from "react-reveal/Fade";
 import { Parallax } from 'react-parallax';
-import Header from './components/section/Header/Header.js'
-import Body from './components/section/body/Body.js'
+import Header from './components/section/Header/Header'
+import Body from './components/section/body/Body'
 import Footer from './components/section/footer/Footer'
 
 const App = () => {

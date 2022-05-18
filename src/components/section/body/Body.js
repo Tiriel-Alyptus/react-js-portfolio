@@ -7,69 +7,52 @@ import React from 'react';
 const Body = () => {
     return (
       <Fade bottom>
-<body>
-<div class="bg-white dark:bg-gray-800 ">
-    <div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+<body class="bg-black">
+<div class="bg-black dark:bg-gray-800 ">
+    <div class="bg-black text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+        <h2 class="bg-black text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span class="block">
                 L'histoire commence ici !
             </span>
-            <span class="block text-indigo-500">
+            <span class="bg-black block text-indigo-500">
             </span>
         </h2>
-        <div class="lg:mt-0 lg:flex-shrink-0">
+        <div class="bg-black lg:mt-0 lg:flex-shrink-0">
             <div class="mt-12 inline-flex rounded-md shadow">
             </div>
         </div>
     </div>
 </div>
-          <div classeName="body" class="container mx-auto px-6 md:px-12 relative z-10 flex items-center">
+          <div classeName="body" class="bg-black container mx-auto px-6 md:px-12 relative z-10 flex items-center">
             <div class="lg:w-3/5 xl:w-2/5 flex flex-col items-start relative z-10">
-              <h2 class="font-bold text-6xl sm:text-7xl text-black leading-tight mt-4">
+              <div class="neon"> 
+              <h2 class="text-6xl sm:text-7xl text-white leading-tight mt-4">
                 <Fade bottom duration={2000}>
-                  <span class="block">La plupart de mes projets</span>
+                  <span class="block">La plupart de <div class="flux">mes projets</div></span>
                 </Fade>
               </h2>
-              
+              </div>
               <p class="text-md mt-8 text-gray-400">
               <Fade bottom duration={2000}>
                 Je commence souvent de nouvelles choses mais la plupart qui se concrétise se trouve sur GITHUB
               </Fade>
               </p>
-              
               <div class="lg:mt-0 lg:flex-shrink-0">
                 <div class="mt-12 inline-flex rounded-md shadow">
                 <form action="https://github.com/Tiriel-Alyptus">
-                <button href="https://github.com/Tiriel-Alyptus" type="button" class="bg-coline-state py-2 px-4 hover:text-black focus:ring-green-500 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg ">Découvrir</button>
-</form>          
+                <button href="https://github.com/Tiriel-Alyptus" type="button" class="bg-coline-state py-2 px-4 hover:text-black focus:ring-green-500 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg ">Découvrir</button></form>         
                 </div>
               </div>
             </div>
             <div class="flex items-center gap-8 p-8 lg:p-6">
-              <img src="https://www.tailwind-kit.com/images/landscape/3.jpg" class="rounded-lg w-1/2" alt="Tree"/>
-            
+              <img src="https://i.pinimg.com/564x/f2/a2/88/f2a288784288048176784aafb0c8ee34.jpg" class="rounded-lg w-1/2" alt="Tree"/>
               <div>
-                <img src="https://www.tailwind-kit.com/images/landscape/3.jpg" class="rounded-lg mb-8" alt="Tree"/>
-                <img src="https://www.tailwind-kit.com/images/landscape/3.jpg" class="rounded-lg" alt="Tree"/>
+                <img src="https://i.pinimg.com/564x/8a/5f/b6/8a5fb6074cd14115d14f3d46b84c38c8.jpg" class="rounded-lg mb-8" alt="Tree"/>
+                <img src="https://i.pinimg.com/564x/b6/70/17/b670178d555ec96d857863e1d3d09676.jpg" class="rounded-lg" alt="Tree"/>
               </div>
             </div>
           </div>
-          <div class="bg-white dark:bg-gray-800 ">
-    <div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
-            <span class="block">
-                
-            </span>
-            <span class="block text-indigo-500">
-            </span>
-        </h2>
-        <div class="lg:mt-0 lg:flex-shrink-0">
-            <div class="mt-12 inline-flex rounded-md shadow">
-            </div>
-        </div>
-    </div>
-</div>
-          <div class="py-12 bg-white">
+          <div class="py-12 bg-black">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div class="lg:text-center">
                 <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Compétences</h2>
@@ -166,7 +149,7 @@ const Body = () => {
               </div>
             </div>
           </div>
-          <div class="bg-white dark:bg-gray-800 overflow-hidden relative">
+          <div class="bg-black dark:bg-black overflow-hidden relative">
     <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
         <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span class="block">
@@ -186,8 +169,8 @@ const Body = () => {
     </div>
     <img src="/images/car/1.jpg" class="absolute h-full max-w-1/2 hidden lg:block right-0 top-0"/>
 </div>
-
-          <div class="max-w-screen-xl p-4 bg-white dark:bg-white mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
+<div class="bg-black">
+          <div class="max-w-screen-xl p-4 bg-black mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
             <div class="relative">
               <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div class="lg:col-start-2 lg:max-w-2xl ml-auto">
@@ -259,6 +242,7 @@ const Body = () => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </body>
         </Fade>

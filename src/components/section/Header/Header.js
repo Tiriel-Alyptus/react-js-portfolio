@@ -32,9 +32,9 @@ const Header = () => {
               </header>
               <div class="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-40">
                 <div class="lg:w-3/5 xl:w-2/5 flex flex-col items-start relative z-10">
-                  <span class="font-bold uppercase text-yellow-400"><Fade bottom duration={2000}>Alpinastra THEM</Fade></span>
-                  <h1 class="font-bold text-6xl sm:text-7xl text-white leading-tight mt-4"><Fade bottom duration={2000}>Emportez vous dans mon portfolio</Fade></h1>
-                  <a href="body" class="block bg-white hover:bg-gray-100 py-3 px-4 rounded-lg text-lg text-gray-800 font-bold uppercase mt-10"><Fade bottom duration={2000}>Découvrir</Fade></a>
+                  <span class="font-bold uppercase text-yellow-400"><Fade bottom duration={2000}>그림자에 오신 것을 환영합니다 !</Fade></span>
+                  <h1 class="flux font-bold text-6xl sm:text-7xl leading-tight mt-4"><Fade bottom duration={2000}>Emportez vous dans <div class="neon">mon portfolio</div></Fade></h1>
+                  <a href="./components/section/Pdf/cv.pdf" class="block bg-white hover:bg-gray-100 py-3 px-4 rounded-lg text-lg text-gray-800 font-bold uppercase mt-10"><Fade bottom duration={2000}>Découvrir</Fade></a>
                 </div>
               </div>
             </div>

@@ -1,3 +1,6 @@
+.coloblack {
+  background-color : black;
+}
 .App {
     text-align: center;
   }
@@ -21,7 +24,6 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
   }
   
   .App-link {
@@ -52,4 +54,63 @@
   
   .section-3 .text-wrapper span.visible {
     opacity: 1;
+  }
+  
+  @font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  }
+  
+  .container {
+
+    vertical-align: middle;
+  }
+  
+  .neon {
+    font-family: neon;
+    color: #FB4264;
+    text-shadow: 0 0 3vw #F40A35;
+  }
+  
+  .flux {
+    font-family: neon;
+    color: #426DFB;
+    text-shadow: 0 0 3vw #2356FF;
+  }
+  
+  .neon {
+    animation: neon 3s ease infinite;
+    -moz-animation: neon 3s ease infinite;
+    -webkit-animation: neon 3s ease infinite;
+  }
+  
+  @keyframes neon {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+      color: #FED128;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+      color: #806914;
+    }
+  }
+  
+  .flux {
+    animation: flux 4s linear infinite;
+    -moz-animation: flux 4s linear infinite;
+    -webkit-animation: flux 4s linear infinite;
+    -o-animation: flux 4s linear infinite;
+  }
+  
+  @keyframes flux {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+      color: #28D7FE;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+      color: #146C80;
+    }
   }
