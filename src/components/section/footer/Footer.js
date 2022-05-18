@@ -9,14 +9,20 @@ import React from 'react';
 const Footer = () => {
     return (
       <div>
-      <div class="items-center text-center px-6 py-6 bg-purple-700 dark:bg-black rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+      <div class="items-center text-center px-6 py-6 bg-purple-700 dark:bg-black md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
       <div class="items-center text-center xl:w-0 xl:flex-1">
           <h2 class="items-center text-center text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl sm:leading-9">
-              Mes goûts musicaux !
+             
           </h2>
       </div>
   </div>
-  
+  <div class="items-center text-center px-6 py-6 bg-purple-700 dark:bg-black md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+      <div class="items-center text-center xl:w-0 xl:flex-1">
+          <h2 class="items-center text-center text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl sm:leading-9">
+             
+          </h2>
+      </div>
+  </div>
     <footer class="bg-white dark:bg-gray-800 w-full py-8">
           <div class="max-w-screen-xl mx-auto px-4">
             <ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">

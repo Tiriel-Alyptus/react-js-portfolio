@@ -4,6 +4,10 @@ import '../../../index.js'
 import Fade from "react-reveal/Fade";
 import { Parallax } from 'react-parallax';
 import React from 'react';
+import {
+  MouseParallaxChild,
+  MouseParallaxContainer
+} from "react-parallax-mouse";
 const Body = () => {
     return (
       
@@ -23,11 +27,13 @@ const Body = () => {
         </div>
     </div>
 </div>
+
           <div classeName="body" class="bg-black container mx-auto px-6 md:px-12 relative z-10 flex items-center">
             <div class="lg:w-3/5 xl:w-2/5 flex flex-col items-start relative z-10">
               <div class="neon"> 
               <h2 class="text-6xl sm:text-7xl text-white leading-tight mt-4">
                 <Fade bottom duration={2000}>
+                
                   <span class="block">La plupart de <div class="flux">mes projets</div></span>
                 </Fade>
               </h2>
@@ -54,13 +60,20 @@ const Body = () => {
             </div>
             </Parallax>
           </div>
+          <div class="items-center text-center px-6 py-6 bg-purple-700 dark:bg-black md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+      <div class="items-center text-center xl:w-0 xl:flex-1">
+          <h2 class="items-center text-center text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl sm:leading-9">
+             
+          </h2>
+      </div>
+  </div>
           <div class="py-12 bg-black">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div class="lg:text-center">
-                <h2 class="text-base text-indigo-400 font-semibold tracking-wide uppercase">Compétences</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-400 sm:text-4xl">
+                <h2 class="flux text-5xl tracking-wide uppercase">Compétences</h2>
+                <p class="neon mt-2 text-3xl leading-8 tracking-tight text-gray-400 sm:text-4xl">
                   <Fade bottom duration={2000}>
-                  Une meilleur façon d'en apprendre un peu plus
+                  Une meilleur moyen d'en apprendre un peu plus
                   </Fade>
                 </p>
                 <p class="mt-4 max-w-2xl text-xl text-gray-200 lg:mx-auto">
@@ -151,6 +164,7 @@ const Body = () => {
               </div>
             </div>
           </div>
+          
           <div class="bg-black dark:bg-black overflow-hidden relative">
     <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
         <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
@@ -158,7 +172,7 @@ const Body = () => {
                 Mes gouts musicaux ?
             </span>
             <span class="block text-indigo-500">
-                Ils sont
+                Ils sont pas encore là..
             </span>
         </h2>
         <div class="lg:mt-0 lg:flex-shrink-0">
@@ -169,6 +183,7 @@ const Body = () => {
             </div>
         </div>
     </div>
+    
     <img src="/images/car/1.jpg" class="absolute h-full max-w-1/2 hidden lg:block right-0 top-0"/>
 </div>
 <div class="bg-black">
@@ -181,7 +196,8 @@ const Body = () => {
                     Quelques perspectives
                     </Fade>
                   </p>
-                  <h4 class="mt-2 text-2xl leading-8 font-extrabold text-gray-200 sm:text-4xl sm:leading-9">En constante évolution</h4>
+                  
+                  <h4 class="flux mt-2 text-2xl leading-8 text-gray-200 sm:text-4xl sm:leading-9">En constante evolution</h4>
                   <p class="mt-4 text-lg leading-6 text-black dark:text-gray-200">
                   <Fade duration={2000}>
                     Je ne me contente pas de ce que j'ai acquis, je pousse plus loin, et cherche des solutions novatrices.
@@ -233,12 +249,10 @@ const Body = () => {
                 <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
                   <div class="relative space-y-4">
                     <div class="flex items-end justify-center lg:justify-start space-x-4">
-                      <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://www.wallpapersun.com/wp-content/uploads/2021/08/Jdm-Cars-Wallpapersun-1.jpg" alt="1"/>
-                      <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="https://i.pinimg.com/originals/a1/29/76/a12976aebca2c2c12f2fc78a4f854f0c.jpg" alt="2"/>
+
+                      <img class="" width="500" src="https://i.ibb.co/Vx5TNxv/pngfind-com-initial-d-png-5727600.png" alt="1"/>
                     </div>
                     <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
-                      <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="https://i.pinimg.com/736x/63/44/97/634497a985eec2da3320c9e1a60bc316.jpg" alt="3"/>
-                      <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://i.pinimg.com/236x/b5/50/35/b550355caf244bf01e06406a235a055d.jpg" alt="4"/>
                     </div>
                   </div>
                 </div>
@@ -247,6 +261,7 @@ const Body = () => {
           </div>
           </div>
         </body>
+        
     );
 };
 export default Body;
