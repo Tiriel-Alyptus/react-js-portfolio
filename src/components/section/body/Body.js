@@ -6,13 +6,13 @@ import { Parallax } from 'react-parallax';
 import React from 'react';
 const Body = () => {
     return (
-      <Fade bottom>
+      
 <body class="bg-black">
 <div class="bg-black dark:bg-gray-800 ">
     <div class="bg-black text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
         <h2 class="bg-black text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span class="block">
-                L'histoire commence ici !
+                
             </span>
             <span class="bg-black block text-indigo-500">
             </span>
@@ -44,6 +44,7 @@ const Body = () => {
                 </div>
               </div>
             </div>
+            <Parallax strength={500} blur={{ min: -5, max: 5 }}>
             <div class="flex items-center gap-8 p-8 lg:p-6">
               <img src="https://i.pinimg.com/564x/f2/a2/88/f2a288784288048176784aafb0c8ee34.jpg" class="rounded-lg w-1/2" alt="Tree"/>
               <div>
@@ -51,17 +52,18 @@ const Body = () => {
                 <img src="https://i.pinimg.com/564x/b6/70/17/b670178d555ec96d857863e1d3d09676.jpg" class="rounded-lg" alt="Tree"/>
               </div>
             </div>
+            </Parallax>
           </div>
           <div class="py-12 bg-black">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div class="lg:text-center">
-                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Compétences</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <h2 class="text-base text-indigo-400 font-semibold tracking-wide uppercase">Compétences</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-400 sm:text-4xl">
                   <Fade bottom duration={2000}>
                   Une meilleur façon d'en apprendre un peu plus
                   </Fade>
                 </p>
-                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                <p class="mt-4 max-w-2xl text-xl text-gray-200 lg:mx-auto">
                 <Fade bottom duration={2000}>
                   Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
                 </Fade>
@@ -76,13 +78,13 @@ const Body = () => {
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                         </svg>
                       </div>
-                      <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
                       <Fade left duration={2000}>
                         Examples 1
                       </Fade>
                       </p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-200">
                     <Fade left duration={3000}>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </Fade>
@@ -95,13 +97,13 @@ const Body = () => {
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                         </svg>
                       </div>
-                      <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
                       <Fade right duration={2000}>
                         Examples 2
                       </Fade>
                       </p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-200">
                     <Fade right duration={3000}>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </Fade>
@@ -114,13 +116,13 @@ const Body = () => {
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                       </div>
-                      <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
                       <Fade left duration={3500}>
                         Examples 3
                       </Fade>
                       </p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-200">
                     <Fade left duration={4000}>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </Fade>
@@ -133,13 +135,13 @@ const Body = () => {
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                         </svg>
                       </div>
-                      <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
                       <Fade right duration={3500}>
                         Examples 4
                       </Fade>
                       </p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-200">
                      <Fade right duration={4500}>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                      </Fade>
@@ -153,10 +155,10 @@ const Body = () => {
     <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
         <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span class="block">
-                Want to be millionaire ?
+                Mes gouts musicaux ?
             </span>
             <span class="block text-indigo-500">
-                It&#x27;s today or never.
+                Ils sont
             </span>
         </h2>
         <div class="lg:mt-0 lg:flex-shrink-0">
@@ -173,14 +175,14 @@ const Body = () => {
           <div class="max-w-screen-xl p-4 bg-black mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
             <div class="relative">
               <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-                <div class="lg:col-start-2 lg:max-w-2xl ml-auto">
+                <div class="lg:col-start-2 lg:max-w-3xl ml-auto">
                   <p class="text-base leading-6 text-indigo-500 font-semibold uppercase">
                   <Fade duration={2000}>
                     Quelques perspectives
                     </Fade>
                   </p>
-                  <h4 class="mt-2 text-2xl leading-8 font-extrabold text-gray-900 dark:text-black sm:text-3xl sm:leading-9">En constante évolution</h4>
-                  <p class="mt-4 text-lg leading-6 text-black dark:text-gray-500">
+                  <h4 class="mt-2 text-2xl leading-8 font-extrabold text-gray-200 sm:text-4xl sm:leading-9">En constante évolution</h4>
+                  <p class="mt-4 text-lg leading-6 text-black dark:text-gray-200">
                   <Fade duration={2000}>
                     Je ne me contente pas de ce que j'ai acquis, je pousse plus loin, et cherche des solutions novatrices.
                     </Fade>
@@ -193,7 +195,7 @@ const Body = () => {
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                           </svg>
                         </span>
-                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-500"><Fade duration={2000}>Novateur</Fade></span>
+                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200"><Fade duration={2000}>Novateur</Fade></span>
                       </div>
                     </li>
                     <li class="mt-6 lg:mt-0">
@@ -203,7 +205,7 @@ const Body = () => {
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                           </svg>
                         </span>
-                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-500"><Fade duration={2000}>Intégration / Gestion en équipe</Fade></span>
+                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200"><Fade duration={2000}>Intégration / Gestion en équipe</Fade></span>
                       </div>
                     </li>
                     <li class="mt-6 lg:mt-0">
@@ -213,7 +215,7 @@ const Body = () => {
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                           </svg>
                         </span>
-                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-500"><Fade duration={2000}>Tête pensante</Fade></span>
+                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200"><Fade duration={2000}>Tête pensante</Fade></span>
                       </div>
                     </li>
                     <li class="mt-6 lg:mt-0">
@@ -223,7 +225,7 @@ const Body = () => {
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                           </svg>
                         </span>
-                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-500"><Fade duration={2000}>Perfectionniste</Fade></span>
+                        <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200"><Fade duration={2000}>Perfectionniste</Fade></span>
                       </div>
                     </li>
                   </ul>
@@ -231,12 +233,12 @@ const Body = () => {
                 <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
                   <div class="relative space-y-4">
                     <div class="flex items-end justify-center lg:justify-start space-x-4">
-                      <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="  https://www.tailwind-kit.com/images/object/8.jpg" alt="1"/>
-                      <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="  https://www.tailwind-kit.com/images/landscape/4.jpg" alt="2"/>
+                      <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://www.wallpapersun.com/wp-content/uploads/2021/08/Jdm-Cars-Wallpapersun-1.jpg" alt="1"/>
+                      <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="https://i.pinimg.com/originals/a1/29/76/a12976aebca2c2c12f2fc78a4f854f0c.jpg" alt="2"/>
                     </div>
                     <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
-                      <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="https://www.tailwind-kit.com/images/landscape/3.jpg" alt="3"/>
-                      <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://www.tailwind-kit.com/images/object/9.jpg" alt="4"/>
+                      <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="https://i.pinimg.com/736x/63/44/97/634497a985eec2da3320c9e1a60bc316.jpg" alt="3"/>
+                      <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://i.pinimg.com/236x/b5/50/35/b550355caf244bf01e06406a235a055d.jpg" alt="4"/>
                     </div>
                   </div>
                 </div>
@@ -245,7 +247,6 @@ const Body = () => {
           </div>
           </div>
         </body>
-        </Fade>
     );
 };
 export default Body;
