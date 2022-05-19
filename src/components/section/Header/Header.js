@@ -7,11 +7,11 @@ import React from 'react';
 
 const Header = () => {
     return (
-<div class="">
+<div class="background-attachment: fi">
         <header>
           <Parallax strength={500} blur={{ min: -5, max: 5 }}bgImage="https://wallpapercave.com/wp/wp6289812.jpg"renderLayer={percentage =>
              (
-            <div style={{position: 'static',background: `rgba(255, 255, 255, ${percentage * 1})`,height: percentage * 20,strength: percentage * 200,}}/>
+            <div style={{position: 'relative',background: `rgba(255, 255, 255, ${percentage * 1})`,height: percentage * 20,strength: percentage * 200,}}/>
             )}> 
             <div class="rounded-b-lg relative overflow-hidden h-screen">
               <header class="absolute top-0 left-0 right-0 z-20">
