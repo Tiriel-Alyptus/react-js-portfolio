@@ -5,6 +5,8 @@ import { Parallax } from 'react-parallax';
 import Header from './components/section/Header/Header'
 import Body from './components/section/body/Body'
 import Footer from './components/section/footer/Footer'
+import { ParallaxProvider } from "react-scroll-parallax";
+
 import {
   MouseParallaxChild,
   MouseParallaxContainer

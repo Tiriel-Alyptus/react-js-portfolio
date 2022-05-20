@@ -4,6 +4,7 @@ import '../../../index.js'
 import Fade from "react-reveal/Fade";
 import { Parallax } from 'react-parallax';
 import React from 'react';
+import { ParallaxBanner } from 'react-scroll-parallax';
 import {
   MouseParallaxChild,
   MouseParallaxContainer
@@ -33,8 +34,9 @@ const Body = () => {
               <div class="neon"> 
               <h2 class="text-6xl sm:text-7xl text-white leading-tight mt-4">
                 <Fade bottom duration={2000}>
-                
+                <Parallax speed={50}>
                   <span class="block">La plupart de <div class="flux">mes projets</div></span>
+                  </Parallax>
                 </Fade>
               </h2>
               </div>
@@ -50,12 +52,12 @@ const Body = () => {
                 </div>
               </div>
             </div>
-            <Parallax strength={500} blur={{ min: -5, max: 5 }}>
+            <Parallax speed={-50}>
             <div class="flex items-center gap-8 p-8 lg:p-6">
-              <img src="https://i.pinimg.com/564x/f2/a2/88/f2a288784288048176784aafb0c8ee34.jpg" class="rounded-lg w-1/2" alt="Tree"/>
+           <img src="https://i.pinimg.com/564x/f2/a2/88/f2a288784288048176784aafb0c8ee34.jpg" class="rounded-lg w-1/2" alt="Tree"/>
               <div>
-                <img src="https://i.pinimg.com/564x/8a/5f/b6/8a5fb6074cd14115d14f3d46b84c38c8.jpg" class="rounded-lg mb-8" alt="Tree"/>
-                <img src="https://i.pinimg.com/564x/b6/70/17/b670178d555ec96d857863e1d3d09676.jpg" class="rounded-lg" alt="Tree"/>
+              <img src="https://i.pinimg.com/564x/8a/5f/b6/8a5fb6074cd14115d14f3d46b84c38c8.jpg" class="rounded-lg mb-8" alt="Tree"/>
+            <img src="https://i.pinimg.com/564x/b6/70/17/b670178d555ec96d857863e1d3d09676.jpg" class="rounded-lg" alt="Tree"/> 
               </div>
             </div>
             </Parallax>
@@ -164,7 +166,7 @@ const Body = () => {
               </div>
             </div>
           </div>
-    <img src="/images/car/1.jpg" class="absolute h-full max-w-1/2 hidden lg:block right-0 top-0"/>
+    <img src="/images/car/.jpg" class="absolute h-full max-w-1/2 hidden lg:block right-0 top-0"/>
 <div class="bg-black">
           <div class="max-w-screen-xl p-4 bg-black mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
             <div class="relative">
