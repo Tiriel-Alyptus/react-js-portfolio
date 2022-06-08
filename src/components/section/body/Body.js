@@ -10,6 +10,10 @@ import {
   MouseParallaxContainer
 } from "react-parallax-mouse";
 import ReactDOM from "react-dom";
+import ReactMarkdown from 'react-markdown'
+import ReactDom from 'react-dom'
+
+
 const Body = () => {
     return (
       
@@ -74,14 +78,14 @@ const Body = () => {
               <div class="lg:text-center">
                 <h2 class="flux text-5xl tracking-wide uppercase">Compétences</h2>
                 <p class="neon mt-2 text-3xl leading-8 tracking-tight text-gray-400 sm:text-4xl">
-                  <Fade bottom duration={2000}>
+                
                   Une meilleur moyen d'en apprendre un peu plus
-                  </Fade>
+                
                 </p>
                 <p class="mt-4 max-w-2xl text-xl text-gray-200 lg:mx-auto">
-                <Fade bottom duration={2000}>
-                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
-                </Fade>
+             
+                  C'est compétences sont le fruit de projets professionnel, ou personnel, que j'ai pu réaliser.
+             
                 </p>
               </div>
               <div class="mt-10">
@@ -94,15 +98,13 @@ const Body = () => {
                         </svg>
                       </div>
                       <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
-                      <Fade left duration={2000}>
-                        Examples 1
-                      </Fade>
+                      Hébergement WEB
                       </p>
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
-                    <Fade left duration={3000}>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                    </Fade>
+                
+                   BBB
+                  
                     </dd>
                   </div>
                   <div class="relative">
@@ -113,15 +115,13 @@ const Body = () => {
                         </svg>
                       </div>
                       <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
-                      <Fade right duration={2000}>
-                        Examples 2
-                      </Fade>
+                      Sécurité réseaux
                       </p>
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
-                    <Fade right duration={3000}>
+             
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                    </Fade>
+               
                     </dd>
                   </div>
                   <div class="relative">
@@ -132,15 +132,15 @@ const Body = () => {
                         </svg>
                       </div>
                       <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
-                      <Fade left duration={3500}>
-                        Examples 3
-                      </Fade>
+                   
+                      Administration Réseaux
+                 
                       </p>
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
-                    <Fade left duration={4000}>
+               
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                    </Fade>
+                  
                     </dd>
                   </div>
                   <div class="relative">
@@ -151,15 +151,15 @@ const Body = () => {
                         </svg>
                       </div>
                       <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
-                      <Fade right duration={3500}>
-                        Examples 4
-                      </Fade>
+                      
+                      REACT JS
+                   
                       </p>
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
-                     <Fade right duration={4500}>
+              
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                     </Fade>
+                   
                     </dd>
                   </div>
                 </dl>
