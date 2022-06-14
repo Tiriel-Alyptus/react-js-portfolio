@@ -25,6 +25,7 @@ jobs:
         run: |
           npm install
           npm install -D tailwindcss
+          npm i react-parallax
           npm run start
 
       - name: Upload artifact for deployment job
