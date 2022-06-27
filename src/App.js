@@ -12,7 +12,6 @@ import {
   MouseParallaxContainer
 } from "react-parallax-mouse";
 import ReactDOM from "react-dom";
-
 const App = () => {
   return (
     <div className="App">

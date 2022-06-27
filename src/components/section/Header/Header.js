@@ -16,7 +16,6 @@ const Header = () => {
        
 <div class="flex">
         <header>
-          
             <div class="rounded-b-lg overflow-hidden h-screen">
               <header class="absolute top-0 left-0 right-0 z-20">
                 <nav class="container mx-auto px-6 md:px-12 py-4">

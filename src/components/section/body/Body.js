@@ -98,12 +98,13 @@ const Body = () => {
                         </svg>
                       </div>
                       <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
-                      Hébergement WEB
+                      WEB, Développement
                       </p>
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
                 
-                   BBB
+                   Je participe activement au maintien d'un serveur WHM - CPANEL, et j'ai pu réaliser plusieurs opérations sur ce serveur.
+                   J'ai pu travailler également sur des serveurs privés virtuels (VPS) et déployer des applications diverses (Bot discord, ReactJS, Site vitrine, Material-Mkdocs, etc.)
                   
                     </dd>
                   </div>
@@ -119,9 +120,14 @@ const Body = () => {
                       </p>
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
-             
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-               
+                    •	Gestion des utilisateurs - droits d’accès 
+
+•	Remaniement du câblage chez un client 
+
+•	Mise en place d’une baie de brassage fermé sous clé et sans câble branché dans le vide chez un client
+
+•	Évaluations des risques du a la vulnérabilité du système d’information d’une entreprise
+
                     </dd>
                   </div>
                   <div class="relative">
@@ -139,8 +145,12 @@ const Body = () => {
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
                
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                  
+                    ·	Superviser l’installation et la configuration des services
+·	Contrôler la performance des systèmes et réseaux
+·	Assurer la qualité́ du fonctionnement du système et du réseau
+·	Rédiger le cahier des charges et les spécifications fonctionnelles et techniques pour un projet de développement d’un système d’information
+·	Planifier un projet en identifiant les ressources nécessaires à l’exécution du projet
+
                     </dd>
                   </div>
                   <div class="relative">
@@ -157,9 +167,8 @@ const Body = () => {
                       </p>
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-200">
-              
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                   
+                    ·	Création d’un site vitrine
+                    ·	Création d’un site portfolio en ReactJS TailwindCSS
                     </dd>
                   </div>
                 </dl>
